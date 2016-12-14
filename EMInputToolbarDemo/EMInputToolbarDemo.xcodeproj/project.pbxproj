@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDFD0FC71E01601200FA6866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD0FC61E01601200FA6866 /* main.m */; };
+		CDFD0FCA1E01601200FA6866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD0FC91E01601200FA6866 /* AppDelegate.m */; };
+		CDFD0FCD1E01601200FA6866 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD0FCC1E01601200FA6866 /* ViewController.m */; };
+		CDFD0FD01E01601200FA6866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFD0FCE1E01601200FA6866 /* Main.storyboard */; };
+		CDFD0FD21E01601200FA6866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFD0FD11E01601200FA6866 /* Assets.xcassets */; };
+		CDFD0FD51E01601200FA6866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDFD0FD31E01601200FA6866 /* LaunchScreen.storyboard */; };
+		CDFD0FDF1E01604C00FA6866 /* EMInputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD0FDE1E01604C00FA6866 /* EMInputTextView.m */; };
+		CDFD0FE21E0160AA00FA6866 /* EMInputToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFD0FE11E0160AA00FA6866 /* EMInputToolbar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDFD0FC21E01601200FA6866 /* EMInputToolbarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMInputToolbarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFD0FC61E01601200FA6866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDFD0FC81E01601200FA6866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDFD0FC91E01601200FA6866 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDFD0FCB1E01601200FA6866 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDFD0FCC1E01601200FA6866 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDFD0FCF1E01601200FA6866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDFD0FD11E01601200FA6866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDFD0FD41E01601200FA6866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDFD0FD61E01601200FA6866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDFD0FDD1E01604C00FA6866 /* EMInputTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMInputTextView.h; sourceTree = "<group>"; };
+		CDFD0FDE1E01604C00FA6866 /* EMInputTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMInputTextView.m; sourceTree = "<group>"; };
+		CDFD0FE01E0160AA00FA6866 /* EMInputToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMInputToolbar.h; sourceTree = "<group>"; };
+		CDFD0FE11E0160AA00FA6866 /* EMInputToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMInputToolbar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDFD0FBF1E01601200FA6866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDFD0FB91E01601200FA6866 = {
+			isa = PBXGroup;
+			children = (
+				CDFD0FC41E01601200FA6866 /* EMInputToolbarDemo */,
+				CDFD0FC31E01601200FA6866 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDFD0FC31E01601200FA6866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD0FC21E01601200FA6866 /* EMInputToolbarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDFD0FC41E01601200FA6866 /* EMInputToolbarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD0FDC1E01602A00FA6866 /* EMInutToolbar */,
+				CDFD0FC81E01601200FA6866 /* AppDelegate.h */,
+				CDFD0FC91E01601200FA6866 /* AppDelegate.m */,
+				CDFD0FCB1E01601200FA6866 /* ViewController.h */,
+				CDFD0FCC1E01601200FA6866 /* ViewController.m */,
+				CDFD0FCE1E01601200FA6866 /* Main.storyboard */,
+				CDFD0FD11E01601200FA6866 /* Assets.xcassets */,
+				CDFD0FD31E01601200FA6866 /* LaunchScreen.storyboard */,
+				CDFD0FD61E01601200FA6866 /* Info.plist */,
+				CDFD0FC51E01601200FA6866 /* Supporting Files */,
+			);
+			path = EMInputToolbarDemo;
+			sourceTree = "<group>";
+		};
+		CDFD0FC51E01601200FA6866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD0FC61E01601200FA6866 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDFD0FDC1E01602A00FA6866 /* EMInutToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD0FDD1E01604C00FA6866 /* EMInputTextView.h */,
+				CDFD0FDE1E01604C00FA6866 /* EMInputTextView.m */,
+				CDFD0FE01E0160AA00FA6866 /* EMInputToolbar.h */,
+				CDFD0FE11E0160AA00FA6866 /* EMInputToolbar.m */,
+			);
+			path = EMInutToolbar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDFD0FC11E01601200FA6866 /* EMInputToolbarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDFD0FD91E01601200FA6866 /* Build configuration list for PBXNativeTarget "EMInputToolbarDemo" */;
+			buildPhases = (
+				CDFD0FBE1E01601200FA6866 /* Sources */,
+				CDFD0FBF1E01601200FA6866 /* Frameworks */,
+				CDFD0FC01E01601200FA6866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMInputToolbarDemo;
+			productName = EMInputToolbarDemo;
+			productReference = CDFD0FC21E01601200FA6866 /* EMInputToolbarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDFD0FBA1E01601200FA6866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Emir;
+				TargetAttributes = {
+					CDFD0FC11E01601200FA6866 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CDFD0FBD1E01601200FA6866 /* Build configuration list for PBXProject "EMInputToolbarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDFD0FB91E01601200FA6866;
+			productRefGroup = CDFD0FC31E01601200FA6866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDFD0FC11E01601200FA6866 /* EMInputToolbarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDFD0FC01E01601200FA6866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFD0FD51E01601200FA6866 /* LaunchScreen.storyboard in Resources */,
+				CDFD0FD21E01601200FA6866 /* Assets.xcassets in Resources */,
+				CDFD0FD01E01601200FA6866 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDFD0FBE1E01601200FA6866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFD0FCD1E01601200FA6866 /* ViewController.m in Sources */,
+				CDFD0FE21E0160AA00FA6866 /* EMInputToolbar.m in Sources */,
+				CDFD0FCA1E01601200FA6866 /* AppDelegate.m in Sources */,
+				CDFD0FDF1E01604C00FA6866 /* EMInputTextView.m in Sources */,
+				CDFD0FC71E01601200FA6866 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDFD0FCE1E01601200FA6866 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFD0FCF1E01601200FA6866 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDFD0FD31E01601200FA6866 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDFD0FD41E01601200FA6866 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDFD0FD71E01601200FA6866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDFD0FD81E01601200FA6866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDFD0FDA1E01601200FA6866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EMInputToolbarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazycodingman.EMInputToolbarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDFD0FDB1E01601200FA6866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EMInputToolbarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crazycodingman.EMInputToolbarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDFD0FBD1E01601200FA6866 /* Build configuration list for PBXProject "EMInputToolbarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFD0FD71E01601200FA6866 /* Debug */,
+				CDFD0FD81E01601200FA6866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDFD0FD91E01601200FA6866 /* Build configuration list for PBXNativeTarget "EMInputToolbarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFD0FDA1E01601200FA6866 /* Debug */,
+				CDFD0FDB1E01601200FA6866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDFD0FBA1E01601200FA6866 /* Project object */;
+}
